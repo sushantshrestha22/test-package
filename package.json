@@ -1,0 +1,21 @@
+{
+  "name": "my-button",
+  "version": "1.0.0",
+  "main": "dist/my-button.cjs.js",
+  "module": "dist/my-button.esm.js",
+  "exports": {
+    ".": {
+      "import": "./dist/my-button.esm.js",
+      "require": "./dist/my-button.cjs.js"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build"
+  },
+  "peerDependencies": {
+    "react": ">=17",
+    "react-dom": ">=17"
+  }
+}
