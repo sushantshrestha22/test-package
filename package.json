@@ -9,7 +9,17 @@
       "require": "./dist/my-button.cjs.js"
     }
   },
-  "files": ["dist"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sushantshrestha22/test-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sushantshrestha22/test-package/issues"
+  },
+  "homepage": "https://github.com/sushantshrestha22/test-package#readme",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite dev",
     "build": "vite build"
